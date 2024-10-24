@@ -3,7 +3,10 @@ import Dollar from "../../assets/dollar.png";
 import { AiOutlineClose } from "react-icons/ai";
 function Navbar() {
   return (
-    <nav className="sticky top-0 left-0  py-8">
+    <nav className="sticky top-0 left-0  py-8" style={{background: "rgba(255, 255, 255, 0.8)",
+      boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+      backdropFilter: "blur(27.2px)",
+      }}>
       <div className="flex justify-between">
         <div className="flex items-center gap-4 pl-5 lg:pl-0">
           <div className="lg:hidden">
@@ -35,7 +38,7 @@ function Navbar() {
                   className="drawer-overlay"
                 ></label>
 
-                <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4 pt-5">
+                <ul className="menu bg-base-200 min-h-full w-80 p-4 pt-5">
                   {/* Sidebar content here */}
                   <span className="flex justify-end">
                     <label
