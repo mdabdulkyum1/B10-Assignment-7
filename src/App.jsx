@@ -1,4 +1,5 @@
 
+import Header from './components/Header/Header';
 
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
     <>
 
     {/* Header here */}
+    <Header/>
     {/* Main here */}
+    
     {/* Footer here */}
 
     </>
