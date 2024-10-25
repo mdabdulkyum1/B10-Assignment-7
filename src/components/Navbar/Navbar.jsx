@@ -1,7 +1,8 @@
 import Logo from "../../assets/logo.png";
 import Dollar from "../../assets/dollar.png";
 import { AiOutlineClose } from "react-icons/ai";
-function Navbar() {
+import { PropTypes } from 'prop-types';
+function Navbar({coins}) {
   return (
     <nav className="sticky top-0 left-0 z-20 container mx-auto  py-8" style={{background: "rgba(255, 255, 255, 0.8)",
       boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
@@ -88,7 +89,7 @@ function Navbar() {
           </ul>
 
           <div className="flex gap-2 sm:gap-4 border py-4 px-2 sm:px-5 rounded-xl">
-            <span className="sm:font-bold">0 Coin</span>
+            <span className="sm:font-bold">{coins} Coin</span>
             <img src={Dollar} alt="Dollar" />
           </div>
         </div>
@@ -96,5 +97,7 @@ function Navbar() {
     </nav>
   );
 }
-
+Navbar.propTypes = {
+  coins: PropTypes.number
+}
 export default Navbar;

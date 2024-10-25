@@ -1,14 +1,16 @@
 
 import Banner from './../Banner/Banner';
-function Header() {
+import { PropTypes } from 'prop-types';
+function Header({ handelAddToCoins }) {
   return (
     <div className='container mx-auto'>
-        {/* Navbar here */}
-        {/* <Navbar /> */}
         {/* Banner here */}
-        <Banner />
+        <Banner handelAddToCoins={handelAddToCoins}/>
     </div>
   )
 }
 
+Header.propTypes = {
+  handelAddToCoins: PropTypes.func
+}
 export default Header

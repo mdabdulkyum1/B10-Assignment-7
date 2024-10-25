@@ -4,16 +4,29 @@ import Header from './components/Header/Header';
 import Players from './components/Players/Players';
 import Newsletter from './components/Newsletter/Newsletter';
 import Footer from './components/Footer/Footer';
+import { useState } from 'react';
 
 
 
 function App() {
+// add coins
+const [coins, setCoins] = useState(0)
+
+// handelAddToCoins func
+const handelAddToCoins= () =>{
+    setCoins(coins+60000000)
+}
+
+
+
+
+
   return (
     <>
     {/* Nav */}
-    <Navbar />
+    <Navbar coins={coins}/>
     {/* Header here */}
-    <Header/>
+    <Header coins={coins} handelAddToCoins={handelAddToCoins}/>
     {/* Main Part here */}
     <Players />
     {/* Newsletter here */}
