@@ -28,7 +28,7 @@ const handelAddToCoins= () =>{
     {/* Header here */}
     <Header coins={coins} handelAddToCoins={handelAddToCoins}/>
     {/* Main Part here */}
-    <Players />
+    <Players coins={coins} setCoins={setCoins}/>
     {/* Newsletter here */}
     <Newsletter />
     {/* Footer here */}

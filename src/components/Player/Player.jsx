@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FaUser } from "react-icons/fa";
 import { CiFlag1 } from "react-icons/ci";
 
-function Player({ player }) {
+function Player({ player, handelChoosePlayer }) {
   const { name, image, country, role, price, rating} = player;
   return (
     <div className="border rounded-2xl p-6">
@@ -32,7 +32,9 @@ function Player({ player }) {
       </div>
       <div className="flex justify-between">
           <span className="font-bold">Price: ${price}</span>
-          <button className="btn py-2 px-4 border rounded">Choose Player</button>
+          <button onClick={()=> {
+            handelChoosePlayer(player)
+          }} className="btn py-2 px-4 border rounded hover:bg-[#e7fe29]">Choose Player</button>
       </div>
     </div>
   );
@@ -40,6 +42,7 @@ function Player({ player }) {
 
 Player.propTypes = {
   player: PropTypes.object.isRequired,
+  handelChoosePlayer: PropTypes.func.isRequired,
 };
 
 export default Player;
