@@ -1,0 +1,74 @@
+
+[
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "rating": 5,
+      "price": 1500000,
+      "image": "https://i.ibb.co.com/8r4SdJT/Viral-Kohli.png"
+    },
+    {
+      "id": 2,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "rating": 4.9,
+      "price": 1400000,
+      "image": "https://i.ibb.co.com/0MRSDT2/Shakib-Al-Hasan.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chris Gayle",
+      "country": "West Indies",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "rating": 4.8,
+      "price": 1300000,
+      "image": "https://i.ibb.co.com/zGxNW04/Chris-Gayle.jpg"
+    },
+    {
+      "id": 4,
+      "name": "David Warner",
+      "country": "Australia",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "rating": 4.7,
+      "price": 1350000,
+      "image": "https://i.ibb.co.com/BZfwb9Z/David-Warner.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "battingStyle": "Right-Hand-Bat",
+      "rating": 4.9,
+      "price": 1200000,
+      "image": "https://i.ibb.co.com/rshdsMx/Rashid-Khan.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Andre Russell",
+      "country": "West Indies",
+      "role": "All-Rounder",
+      "battingStyle": "Right-Hand-Bat",
+      "rating": 4.9,
+      "price": 1450000,
+      "image": "https://i.ibb.co.com/5MwDxKt/Andre-Russell.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Faf du Plessis",
+      "country": "South Africa",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "rating": 4.6,
+      "price": 1250000,
+      "image": "https://i.ibb.co.com/BKysKX2/Faf-du-Plessis.jpg"
+    }
+  ]
+  
