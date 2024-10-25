@@ -35,7 +35,7 @@ function Players() {
       </div>
       <div className="text-center lg:text-left">
         <span className="p-2 border border-black inline-block rounded-xl">
-          <button className="btn bg-[#E7FE29]">Add More Player</button>
+          <button className="btn bg-[#e7fe29]">Add More Player</button>
         </span>
       </div>
     </div>

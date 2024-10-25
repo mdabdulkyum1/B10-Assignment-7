@@ -23,7 +23,7 @@ function Banner() {
             <div className="">
                 <span className='p-2 border border-[#E7FE29] inline-block rounded-xl'>
 
-            <button className="btn bg-[#E7FE29]">Claim Free Credit</button>
+            <button className="btn bg-gradient-to-r from-pink-500 via-purple-400 to-yellow-400">Claim Free Credit</button>
                 </span>
             </div>
           </div>
