@@ -41,7 +41,9 @@ function Footer() {
         </div>
       </div>
       <div className="border-t border-gray-700 w-full mt-11 py-8">
-        <p className="text-center text-gray-500">@2024 Your Company All Rights Reserved.</p>
+        <p className="text-center text-gray-500">
+          @2024 Your Company All Rights Reserved.
+        </p>
       </div>
     </div>
   );

@@ -127,16 +127,14 @@ player.Claim some Credit`,
       }
     }
   };
-// remove player from selected players
-const handelRemovePlayer = player => {
-    const removeAndUpdatePlayer = selectedPlayers.filter(p=> p.id !== player.id);
-    setSelectedPlayers(removeAndUpdatePlayer)
+  // remove player from selected players
+  const handelRemovePlayer = (player) => {
+    const removeAndUpdatePlayer = selectedPlayers.filter(
+      (p) => p.id !== player.id
+    );
+    setSelectedPlayers(removeAndUpdatePlayer);
     removeNotify();
-}
-
-
-
-
+  };
 
   return (
     <div className="my-14 container mx-auto">
@@ -188,7 +186,13 @@ const handelRemovePlayer = player => {
       </div>
       <div className="">
         {isToggle.status === "selected" &&
-          selectedPlayers.map((p) => <PlayerSelected key={p.id} player={p} handelRemovePlayer={handelRemovePlayer}/>)}
+          selectedPlayers.map((p) => (
+            <PlayerSelected
+              key={p.id}
+              player={p}
+              handelRemovePlayer={handelRemovePlayer}
+            />
+          ))}
       </div>
       <div className="text-center lg:text-left">
         {isToggle.status === "selected" && (
