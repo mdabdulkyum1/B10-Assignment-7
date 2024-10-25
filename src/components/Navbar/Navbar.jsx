@@ -3,7 +3,7 @@ import Dollar from "../../assets/dollar.png";
 import { AiOutlineClose } from "react-icons/ai";
 function Navbar() {
   return (
-    <nav className="sticky top-0 left-0  py-8" style={{background: "rgba(255, 255, 255, 0.8)",
+    <nav className="sticky top-0 left-0 z-20 container mx-auto  py-8" style={{background: "rgba(255, 255, 255, 0.8)",
       boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
       backdropFilter: "blur(27.2px)",
       }}>
