@@ -1,7 +1,9 @@
 
+import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import Players from './components/Players/Players';
-import Navbar from './components/Navbar/Navbar';
+import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -14,8 +16,10 @@ function App() {
     <Header/>
     {/* Main Part here */}
     <Players />
+    {/* Newsletter here */}
+    <Newsletter />
     {/* Footer here */}
-
+    <Footer />
     </>
   )
 }
