@@ -72,11 +72,11 @@ function Navbar({ coins }) {
           </div>
 
           <a className="">
-            <img src={Logo} alt="BPL Logo" className="w-[30px]" />
+            <img src={Logo} alt="BPL Logo" className="w-[70px]" />
           </a>
         </div>
 
-        <div className=" lg:flex">
+        <div className=" lg:flex items-center">
           <ul className="menu menu-horizontal px-1 hidden lg:flex ">
             <li>
               <a href="">Home</a>
@@ -92,7 +92,7 @@ function Navbar({ coins }) {
             </li>
           </ul>
 
-          <div className="flex gap-2 sm:gap-4 border py-4 px-2 sm:px-5 rounded-xl">
+          <div className="flex items-center gap-2 sm:gap-4 border py-4 px-2 sm:px-5 rounded-xl">
             <span className="sm:font-bold">{coins} Coin</span>
             <img src={Dollar} alt="Dollar" />
           </div>
