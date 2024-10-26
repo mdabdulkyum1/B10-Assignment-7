@@ -2,7 +2,7 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import { PropTypes } from "prop-types";
 
 function PlayerSelected({ player, handelRemovePlayer }) {
-  const { name, image, role } = player;
+  const { name, image, role, price } = player;
   return (
     <div className="flex items-center justify-between border p-6 rounded-2xl my-6 shadow-lg">
       <div className="flex items-center gap-4">
@@ -12,6 +12,9 @@ function PlayerSelected({ player, handelRemovePlayer }) {
           <p>{role}</p>
         </div>
       </div>
+        <div className="">
+          <p className="text-red-400">${price}</p>
+        </div>
       <div className="">
         <RiDeleteBinLine
           onClick={() => handelRemovePlayer(player)}
