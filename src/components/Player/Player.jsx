@@ -30,7 +30,7 @@ function Player({ player, handelChoosePlayer }) {
         <span className="font-bold">{rating?.batting_style}</span>
         <span>{rating.bowling_style || "N/A"}</span>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <span className="font-bold">Price: ${price}</span>
         <button
           onClick={() => {
