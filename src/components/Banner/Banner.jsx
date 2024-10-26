@@ -5,7 +5,7 @@ import { PropTypes } from "prop-types";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-function Banner({ handelAddToCoins }) {
+function Banner({ coins, handelAddToCoins }) {
   const notify = () => {
     toast.success("Credit Added to your Account", {
       position: "top-center",
@@ -47,7 +47,7 @@ function Banner({ handelAddToCoins }) {
                     handelAddToCoins();
                     notify();
                   }}
-                  className="btn bg-gradient-to-r from-pink-500 via-purple-400 to-yellow-400"
+                  className={`btn ${coins > 0 ? 'bg-gradient-to-r from-pink-500 via-purple-400 to-yellow-400' : 'bg-[#E7FE29]'} `}
                 >
                   Claim Free Credit
                 </button>
@@ -64,5 +64,6 @@ function Banner({ handelAddToCoins }) {
 
 Banner.propTypes = {
   handelAddToCoins: PropTypes.func,
+  coins: PropTypes.number
 };
 export default Banner;

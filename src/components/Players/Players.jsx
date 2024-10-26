@@ -105,7 +105,6 @@ player.Claim some Credit`,
     }
 
     if (coins > player.price) {
-      setCoins(coins - player.price);
       handelSelectedPlayers(player, player.id);
     } else {
       errNotify();
@@ -119,6 +118,7 @@ player.Claim some Credit`,
     if (selectedPlayers.length < 6 && !isExistPlayers) {
       notify(player.name);
       setSelectedPlayers([...selectedPlayers, player]);
+      setCoins(coins - player.price);
     } else {
       if (isExistPlayers) {
         existThisPlayer();
