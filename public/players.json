@@ -82,5 +82,125 @@
     },
     "price": 1250000,
     "image": "https://i.ibb.co.com/BKysKX2/Faf-du-Plessis.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "role": "Bowler",
+    "rating": {
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm fast"
+    },
+    "price": 1300000,
+    "image": "https://i.ibb.co.com/FnnL6Rc/Kagiso-Rabada.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicketkeeper Batsman",
+    "rating": {
+      "batting_style": "Left-hand bat",
+      "bowling_style": null
+    },
+    "price": 1200000,
+    "image": "https://i.ibb.co.com/M9gGDBF/Quinton-de-Kock.jpg"
+  },
+  {
+    "id": 10,
+    "name": "David Miller",
+    "country": "South Africa",
+    "role": "Batsman",
+    "rating": {
+      "batting_style": "Left-hand bat",
+      "bowling_style": null
+    },
+    "price": 1100000,
+    "image": "https://i.ibb.co.com/WsC0y0X/David-Miller.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper Batsman",
+    "rating": {
+      "batting_style": "Right-hand bat",
+      "bowling_style": null
+    },
+    "price": 1250000,
+    "image": "https://i.ibb.co.com/CP6cwBW/Mushfiqur-Rahim.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": {
+      "batting_style": "Left-hand bat",
+      "bowling_style": null
+    },
+    "price": 1100000,
+    "image": "https://i.ibb.co.com/dWgRPyM/Tamim-Iqbal-AFP.webp"
+  },
+  {
+    "id": 13,
+    "name": "Mahmudullah",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": {
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm off-break"
+    },
+    "price": 1200000,
+    "image": "https://i.ibb.co.com/2h8N3B2/Mahmudullah.webp"
+  },
+  {
+    "id": 14,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": {
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm fast-medium"
+    },
+    "price": 1050000,
+    "image": "https://i.ibb.co.com/y4NyKrb/Mustafizur-Rahman.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": {
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm leg spin"
+    },
+    "price": 1350000,
+    "image": "https://i.ibb.co.com/SX2Sdmx/steve-smith.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": {
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm fast"
+    },
+    "price": 1250000,
+    "image": "https://i.ibb.co.com/s3yW8pK/Pat-Cummins.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "rating": {
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm off-break"
+    },
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/JC3ZTxk/Glenn-Maxwell.jpg"
   }
 ]
